@@ -20,14 +20,7 @@ pipeline {
             }
         }
         
-        stage ('rm pipe') {
-            steps {
-               sh '''
-               rm pipeline
-               env
-               '''
-            }
-        }
+       
     }
 }
 
