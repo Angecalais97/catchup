@@ -9,7 +9,7 @@ pipeline {
             }
             steps {
                 sh '''
-                mvn
+                mvn --version
                 env
                 '''
             }
